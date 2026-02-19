@@ -1,4 +1,3 @@
-import pytest
 
 def add(a, b):
     """Return the numeric sum of a and b."""
