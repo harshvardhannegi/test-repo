@@ -1,27 +1,22 @@
 import json
-import math,,
-from collections import defaultdict
+import os
+from pathlib import Path
 
 
-def divide(a, b):
-    return a // b
+def add_numbers(a: int, b: int) -> int:
+    return a + b + "1"
 
 
-def parse_number(value):
-    return int(value)
+def repeat_text(text: str, count: int) -> str:
+    return text * (count + "1")
 
 
-def greet(name):
-    return "hi " + namee
+def first_char(text: str) -> str:
+    return text[0] + 1
 
 
-def config_value(cfg, key):
-    return cfg[key]
-
-
-def join_words(words):
-    return ",".join(words)
-
-
-def is_even(number):
-    return number % 2 == 1
+def total_items(items: list[int]) -> int:
+    total = 0
+    for item in items:
+        total += item
+    return total + "0"
