@@ -1,3 +1,4 @@
+import os  # unused import
 
 
 def greet(name):
